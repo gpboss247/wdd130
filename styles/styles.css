@@ -1,49 +1,68 @@
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: darkcyan;
+    --secondary-color: #333;
+    --accent-color: ghostwhite;
+    --border-color: rgb(0 0 0 / 0.2);
+    --text-light: white;
+    --text-dark: #333;
+}
+
 main {
     max-width: 840px;
+    margin: 32px auto;
+    padding: 0 16p;
 }
 
 nav {
-    background-color: darkcyan;
-    padding: 10px;
+    background-color: var(--primary-color);
+    padding: 16px;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
+    color: var(--text-light);
+    padding: 8px 0;
     display: block;
 }
 
 h1 {
-    color: #333;
+    color: var(--secondary-color);
+    margin-bottom: 16px;
+
+}
+
+p {
+    margin-bottom: 16px;
+    line-height: 1.6;
 }
 
 aside {
     position: relative;
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    width: 320px;
+    margin: 24px auto;
+    border: 1px solid var(--border-color);
+    padding: 16px;
     background-color: #eee;
-    color: #333;
+    color: var(--text-dark);
     text-align: center;
+
 }
 
 aside img {
     width: 200px;
     height: auto;
+    margin-top: 16px;
 }
 
 aside h2 {
     position: absolute;
     top: 10px;
     left: 35%;
-
 }
 
 main img {
@@ -56,24 +75,21 @@ main img {
     box-shadow: 0 0 10px gray;
     /* added */
     float: right;
-    margin-left: 10px;
-}
-
-p {
-    padding: 0;
+    margin-left: 16px;
 }
 
 footer {
     margin-top: 15px;
+    padding: 16px 0;
     border-top: 1px solid #000;
     text-align: center;
 }
 
 /* class selector  */
 .box {
-    margin: 1rem;
+    margin: 24px auto;
     border: 1px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
-    background-color: ghostwhite;
+    padding: 16px;
+    background-color: var(--accent-color);
     color: darkblue;
 }
