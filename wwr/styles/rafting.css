@@ -52,13 +52,8 @@ nav ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: flex-end;
-    padding: 8px 16px;
-
-}
-
-nav ul {
     justify-content: center;
+    padding: 8px 16px;
 }
 
 nav a {
