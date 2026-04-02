@@ -272,7 +272,7 @@ footer p {
     color: var(--primary-color);
 }
 
-.checkbox {
+.checkbox-wrapper {
     display: flex;
     align-items: center;
     gap: 10px;
