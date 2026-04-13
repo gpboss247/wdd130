@@ -478,11 +478,6 @@ footer p {
     background-color: var(--secondary-color);
 }
 
-/* ============================================================
-   TRIPS PAGE - trips.html
-   ============================================================ */
-
-/* --- Trips Section --- */
 .trips-section {
     padding: 0;
     margin-bottom: 20px;
@@ -505,7 +500,6 @@ footer p {
     padding: 16px;
 }
 
-/* Center the last card if it sits alone on the bottom row */
 .trips-grid .trip-card:last-child:nth-child(odd) {
     grid-column: 1 / -1;
     max-width: 50%;
@@ -550,7 +544,6 @@ footer p {
     padding: 0;
 }
 
-/* Difficulty Badges */
 .difficulty {
     display: inline-block;
     padding: 2px 10px;
@@ -577,7 +570,6 @@ footer p {
     color: #721c24;
 }
 
-/* Trip Highlights List */
 .trip-highlights {
     list-style: none;
     padding: 0;
@@ -593,7 +585,6 @@ footer p {
     font-weight: bold;
 }
 
-/* --- Trips Table Section --- */
 .trips-table-section {
     padding: 0;
     margin-bottom: 20px;
