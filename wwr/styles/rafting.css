@@ -10,7 +10,6 @@
     --secondary-color: #0B3C49;
     /* Rich teal (water feel) */
     --accent1-color: #8C6A00;
-    ;
     /* Gold (luxury highlight) */
     --accent2-color: #F5F5F5;
     /* Soft light (clean contrast) */
@@ -75,7 +74,6 @@ h2 {
 
 nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
@@ -223,6 +221,13 @@ footer p {
     padding: 16px;
 }
 
+.company-info h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
 .company-info p {
     margin: 4px 0;
     padding: 0;
@@ -297,6 +302,10 @@ footer p {
     background-color: var(--primary-color);
 }
 
+.employees {
+    margin-top: 20px;
+}
+
 .employee-profiles {
     display: flex;
     justify-content: space-between;
@@ -335,6 +344,7 @@ footer p {
     color: var(--accent2-color);
     font-size: 1.6rem;
     margin-bottom: 10px;
+    background-color: transparent;
 }
 
 .cta-section p {
