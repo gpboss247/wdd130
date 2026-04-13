@@ -675,10 +675,15 @@ footer p {
     }
 
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
-        align-items: center;
-        padding: 8px 0;
+        padding: 8px;
+    }
+
+    nav a {
+        font-size: 0.85rem;
     }
 
     .hero h1 {
@@ -756,6 +761,7 @@ footer p {
 
     .cta-section h2 {
         font-size: 1.2rem;
+        background-color: transparent;
     }
 
     .newsletter-content {
